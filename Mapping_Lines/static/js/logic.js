@@ -42,12 +42,12 @@ cityData.forEach(function (city) {
   })
     .bindPopup(
       "<h2>" +
-        city.city +
-        ", " +
-        city.state +
-        "</h2> <hr> <h3>Population " +
-        city.population +
-        "</h3>"
+      city.city +
+      ", " +
+      city.state +
+      "</h2> <hr> <h3>Population " +
+      city.population +
+      "</h3>"
     )
     .addTo(mymap);
 });
