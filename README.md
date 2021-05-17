@@ -10,7 +10,7 @@ Finally, a user can customize this display by hovering over the option widget, r
 
 ## Technologies used:
 - Javascript, HTML, CSS, Visual Studio Code, Github desktop, D3, and Leaflet v1.7.1
-- 
+
 ## Web resources used:
 - Styles APIs from mapbox.com,
 - Government agencies resources: USGS,
