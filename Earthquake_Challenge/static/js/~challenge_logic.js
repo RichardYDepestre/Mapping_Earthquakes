@@ -24,6 +24,14 @@ let baseMaps = {
   "Satellite Streets": satelliteStreets
 };
 
+// 1. Add a 2nd layer group for the tectonic plate data.
+let allEarthquakes = new L.LayerGroup();
+let tectonics = new L.LayerGroup()
+
+// 2. Add a reference to the tectonic plates group to the overlays object.
+let overlays = {
+  "Earthquakes": allEarthquakes
+};
 // Create the earthquake layer for our map.
 let earthquakes = new L.layerGroup();
 
